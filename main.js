@@ -43,6 +43,4 @@ ready(() => {
             coll2.classList.add('expanded');  
         }
     };
-
-
 })
