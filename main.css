@@ -1,8 +1,12 @@
-hr.rounded {
-    border-top: 8px solid #bbb;
-    border-radius: 5px;
+.shadow{
+    background-color: #444;
+}
+
+hr {
+    border-top: 1px solid #bbb;
     border-width: 50%;
-    padding-top: 5px;
+    padding-top: 1px;
+    height: 2px;
   }
 .logo img{
     height:150px;
@@ -55,4 +59,42 @@ hr.rounded {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+footer {
+    font-family: 'Playfair Display', serif;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    background-color: #ABA5A3;
+    height:100%;
+    max-height: 30vh;
+}
+nav {
+    background-color: #D6CFCD;
+    font-family: 'Playfair Display', serif;
+    color: rgb(76, 76, 76);
+}
+nav a {
+    color: rgb(76, 76, 76);
+
+}
+html, body {
+    background-color: #ECE8E6;
+    height:100%;
+}
+
+header{
+    background-color: #ECE8E6;
+}
+.container-features{
+    background-color: #ECE8E6;
+
+}
+h1,h4,h3 {
+    color:#4d4b30
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
